@@ -1,12 +1,16 @@
 body {
 	margin: 0;
 	padding: 0;
-    background: #000 url(image/sante-copie-5.jpg);
-    background-size: 1300px 900px;
+    background: #000 url(image/111498504.jpg);
+/*    background-image: url("image/PAPHOSMOSAICROMAN.jpg") ;*/
+/*    opacity: 0.1;*/
+/*    filter: opacity(10%);*/
+    background-size: 1024px 681px;
 	font-size: 14px;
 /*	color: #ffcccc;*/
-    color: #ffffff;
+    color: #ff00ff;
 }
+
 
 h1, h2, h3, p, ul, ol {
 	margin-top: 10;
@@ -76,7 +80,7 @@ a img {
 /* HEADER - Contains the logo, slogan and menu. */
 
 #header {
-	width: 1100px;
+	width: 1024px;
 	height: 150px;
 	margin: 1 auto;
 	text-transform: inherit;
@@ -88,7 +92,7 @@ a img {
 	margin: 0;
 	text-align: center;
 /*	color: #FF99FF;*/
-    color: #99bbff;
+    color: #f9bbff;
 
 }
 #header h2 {
@@ -159,15 +163,15 @@ a img {
 /* PAGE - Contains the main content and the sidebar. */
 
 #page {
-	width: 1100px;
-	margin: 0 auto;
+	width: 1024px;
+	margin: 5 auto;
 }
 
 /* CONTENT - The main content area. */
 
 #content {
 	float: left;
-	width: 780px;
+	width: 650px;
 }
 
 /* POST - Contains a section of the content. Grouping content is neat. */
@@ -259,8 +263,9 @@ a img {
 /* SIDEBAR - For extra links and ad spaces. */
 
 #sidebar {
-	float: right;
-	width: 300px;
+	float: left;
+    padding: 10;
+	width: 250px;
 }
 
 #sidebar ul {
@@ -305,7 +310,7 @@ a img {
 
 #footer {
 	clear: both;
-	width: 960px;
+	width: 660px;
 	margin: 0 auto;
 	padding: 10px 0;
 	border-top: 1px solid #000;
