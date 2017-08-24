@@ -2,10 +2,7 @@ body {
 	margin: 0;
 	padding: 0;
     background: #000 url(image/111498504.jpg);
-/*    background-image: url("image/PAPHOSMOSAICROMAN.jpg") ;*/
-/*    opacity: 0.1;*/
-/*    filter: opacity(10%);*/
-    background-size: 1024px 681px;
+    background-size: 1331px 945px;
 	font-size: 14px;
 /*	color: #ffcccc;*/
     color: #ff00ff;
@@ -278,7 +275,7 @@ a img {
 }
 
 #sidebar li ul {
-	padding: 20px;
+	padding: 5px;
 }
 
 #sidebar li li {
